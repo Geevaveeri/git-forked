@@ -6,8 +6,6 @@ const hbs = exphbs.create({});
 const passport = require("passport");
 const local = require("./utils/local");
 
-const routes = require('./controllers');
-
 const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3001;
